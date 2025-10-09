@@ -16,8 +16,8 @@ int main()
        long long longest_substring = 1;
        long long current_substring = 1;
 
-       for(int i=1;i<s.length();i++){
-        if(s[i]==s[i-1]){
+       for(int i=1 ; i<s.length() ;i++){
+        if(s[i] == s[i-1]){
             current_substring++;
         }
         else{

@@ -28,7 +28,7 @@ int main()
 
        longest_substring = max(longest_substring, current_substring);
 
-       cout<< longest_substring + 1<<endl;
+       cout << longest_substring + 1<<endl;
     }
 
     return 0;

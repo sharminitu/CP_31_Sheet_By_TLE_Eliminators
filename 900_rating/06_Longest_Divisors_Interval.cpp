@@ -9,12 +9,13 @@ int main()
     {
         long long n;
         cin >> n;
-        long long i=1;
-        while(n%i==0){
+        long long i = 1;
+        while (n % i == 0)
+        {
             i++;
         }
-    
-        cout<<i-1<<endl;
+
+        cout << i - 1 << endl;
     }
     return 0;
 }
